@@ -4,6 +4,7 @@
   "description": "Self built app to practice new technologies or concepts I would like to learn and solidify.",
   "main": "index.js",
   "scripts": {
+    "react:dev": "webpack -d --watch",
     "server:dev": "nodemon ./server/index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,12 @@
     "node": "^12.6.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
   }
 }
