@@ -1,0 +1,19 @@
+{
+  "name": "cuddly-succotash",
+  "version": "1.0.0",
+  "description": "Self built app to practice new technologies or concepts I would like to learn and solidify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NapoleonDLP/cuddly-succotash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NapoleonDLP/cuddly-succotash/issues"
+  },
+  "homepage": "https://github.com/NapoleonDLP/cuddly-succotash#readme"
+}
